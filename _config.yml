@@ -1,11 +1,11 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+title: XVI | Wargame early 16th Polish army
+description: "Blog about painting and modeling miniatures, mostly for my 16th century Polish army."
+url: "http://0xddr.github.io/xvi/"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Jan Łukaszewicz"
+  email: "janek99+xvi@gmail.com"
+  url: "http://0xddr.github.io/xvi/"
 
 # Build settings
 baseurl: /xvi/ # Change this to your relative path (ex: /blog/), or leave just a /
