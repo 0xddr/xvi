@@ -296,7 +296,7 @@ blockquote {
     width: 5rem;
     height: 1px;
     margin: 23px auto;
-    background-color: #d4d4d4; }
+    background-color: #d5d5d5; }
 
 /* Posts */
 #posts li {
@@ -314,7 +314,7 @@ blockquote {
   width: 5rem;
   height: 1px;
   margin: 23px auto;
-  background-color: #d4d4d4; }
+  background-color: #d5d5d5; }
 
 .by-line {
   display: block;
