@@ -1,30 +1,26 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <id>{{ site.url }}</id>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <title>XVI | Wargame early 16th Polish army</title>
+ <link href="http://0xddr.github.io/xvi//atom.xml" rel="self"/>
+ <id>http://0xddr.github.io/xvi/</id>
+ <updated>2015-11-10T01:00:38+00:00</updated>
  <author>
-   <name>{{ site.author.name }}</name>
-   <uri>{{ site.author.url }}</uri>
-   <email>{{ site.author.email }}</email>
+   <name>Jan Łukaszewicz</name>
+   <uri>http://0xddr.github.io/xvi/</uri>
+   <email>janek99+xvi@gmail.com</email>
  </author>
 
- {% for post in site.posts limit: 10 %}
+ 
 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
+   <title>Here I start</title>
+   <link href="http://0xddr.github.io/xvi//intro"/>
+   <id>http://0xddr.github.io/xvi//intro</id>
+   <updated>2015-11-09T00:00:00+00:00</updated>
+   <content type="html">&lt;p&gt;I am starting this blog mostly to keep myself motivated with my recent wargaming project: 28mm early 16th century Polish army.&lt;/p&gt; &lt;p&gt;The &lt;strong&gt;inspiration&lt;/strong&gt; to start was this painting of Battle of Orsha: &lt;img src=&quot;/xvi/assets/images/Krell_Battle_of_Orsha_01.jpg&quot; alt=&quot;Battle of Orsha by Krell&quot; /&gt;&lt;/p&gt; &lt;p&gt;It was painted a few years after battle, but still...</content>
  </entry>
 
- {% endfor %}
+ 
 
 </feed>
